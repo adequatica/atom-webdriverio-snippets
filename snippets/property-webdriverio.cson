@@ -1,0 +1,85 @@
+'.source.js':
+
+    'getAttribute()':
+        'prefix': 'getAttribute'
+        'body': 'getAttribute(${1:selector}, ${2:attributeName})$3'
+        'description': 'Get an attribute from a DOM-element'
+        'descriptionMoreURL': 'http://webdriver.io/api/property/getAttribute.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getAttribute()</span>'
+
+    'getCssProperty()':
+        'prefix': 'getCssProperty'
+        'body': 'getCssProperty(${1:selector}, ${2:cssProperty})$3'
+        'description': 'Get a css property from a DOM-element'
+        'descriptionMoreURL': 'http://webdriver.io/api/property/getCssProperty.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getCssProperty()</span>'
+
+    'getElementSize()':
+        'prefix': 'getElementSize'
+        'body': 'getElementSize(${1:selector})$2'
+        'description': 'Get the width and height for a DOM-element'
+        'descriptionMoreURL': 'http://webdriver.io/api/property/getElementSize.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getElementSize()</span>'
+
+    'getHTML()':
+        'prefix': 'getHTML'
+        'body': 'getHTML(${1:selector})$2'
+        'description': 'Get source code of specified DOM-element'
+        'descriptionMoreURL': 'http://webdriver.io/api/property/getHTML.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getHTML()</span>'
+
+    'getLocation()':
+        'prefix': 'getLocation'
+        'body': 'getLocation(${1:selector},{$2:property})$3'
+        'description': 'Determine an element’s location on the page'
+        'descriptionMoreURL': 'http://webdriver.io/api/property/getLocation.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getLocation()</span>'
+
+    'getLocationInView()':
+        'prefix': 'getLocationInView'
+        'body': 'getLocationInView(${1:selector})$2'
+        'description': 'Determine an element’s location on the screen once it has been scrolled into view'
+        'descriptionMoreURL': 'http://webdriver.io/api/property/getLocationInView.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getLocationInView()</span>'
+
+    'getSource()':
+        'prefix': 'getSource'
+        'body': 'getSource()'
+        'description': 'Get source code of the page'
+        'descriptionMoreURL': 'http://webdriver.io/api/property/getSource.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getSource()</span>'
+
+    'getTagName()':
+        'prefix': 'getTagName'
+        'body': 'getTagName(${1:selector})$2'
+        'description': 'Get tag name of a DOM-element'
+        'descriptionMoreURL': 'http://webdriver.io/api/property/getTagName.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getTagName()</span>'
+
+    'getText()':
+        'prefix': 'getText'
+        'body': 'getText(${1:selector})$2'
+        'description': 'Get the text content from a DOM-element'
+        'descriptionMoreURL': 'http://webdriver.io/api/property/getText.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getText()</span>'
+
+    'getTitle()':
+        'prefix': 'getTitle'
+        'body': 'getTitle()'
+        'description': 'Get the title of current opened website'
+        'descriptionMoreURL': 'http://webdriver.io/api/property/getTitle.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getTitle()</span>'
+
+    'getUrl()':
+        'prefix': 'getUrl'
+        'body': 'getUrl()'
+        'description': 'Get the url of current opened website'
+        'descriptionMoreURL': 'http://webdriver.io/api/property/getUrl.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getUrl()</span>'
+
+    'getValue()':
+        'prefix': 'getValue'
+        'body': 'getValue(${1:selector})$2'
+        'description': 'Get the value of a <textarea> or text <input> found by given selector'
+        'descriptionMoreURL': 'http://webdriver.io/api/property/getValue.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getValue()</span>'

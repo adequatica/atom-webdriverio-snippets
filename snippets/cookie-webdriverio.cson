@@ -1,0 +1,22 @@
+'.source.js':
+
+    'deleteCookie()':
+        'prefix': 'deleteCookie'
+        'body': 'deleteCookie(${1:[name]})$2'
+        'description': 'Delete cookies visible to the current page'
+        'descriptionMoreURL': 'http://webdriver.io/api/cookie/deleteCookie.html'
+        'rightLabelHTML': '<span style="color:#ea5906">deleteCookie()</span>'
+
+    'getCookie()':
+        'prefix': 'getCookie'
+        'body': 'getCookie(${1:[name]})$2'
+        'description': 'Retrieve a cookie visible to the current page'
+        'descriptionMoreURL': 'http://webdriver.io/api/cookie/getCookie.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getCookie()</span>'
+
+    'setCookie()':
+        'prefix': 'setCookie'
+        'body': 'setCookie(${1:cookie})$2'
+        'description': 'Sets a cookie for current page'
+        'descriptionMoreURL': 'http://webdriver.io/api/cookie/setCookie.html'
+        'rightLabelHTML': '<span style="color:#ea5906">setCookie()</span>'

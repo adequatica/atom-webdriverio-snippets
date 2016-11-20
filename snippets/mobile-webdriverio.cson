@@ -1,0 +1,386 @@
+'.source.js':
+
+    'background()':
+        'prefix': 'background'
+        'body': 'background()'
+        'description': 'Send the currently active app to the background'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/background.html'
+        'rightLabelHTML': '<span style="color:#ea5906">background()</span> Android'
+
+    'closeApp()':
+        'prefix': 'closeApp'
+        'body': 'closeApp()'
+        'description': 'Close the given application'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/closeApp.html'
+        'rightLabelHTML': '<span style="color:#ea5906">closeApp()</span> iOS'
+
+    'context()':
+        'prefix': 'context'
+        'body': 'context(${1:[ID]})$2'
+        'description': 'Retrieve current context or switch to the specified context'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/context.html'
+        'rightLabelHTML': '<span style="color:#ea5906">context()</span> Android, iOS'
+
+    'contexts()':
+        'prefix': 'contexts'
+        'body': 'contexts()'
+        'description': 'List all available contexts'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/contexts.html'
+        'rightLabelHTML': '<span style="color:#ea5906">contexts()</span> Android, iOS'
+
+    'currentActivity()':
+        'prefix': 'currentActivity'
+        'body': 'currentActivity()'
+        'description': 'Receive the current activity'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/currentActivity.html'
+        'rightLabelHTML': '<span style="color:#ea5906">currentActivity()</span> Android'
+
+    'deviceKeyEvent()':
+        'prefix': 'deviceKeyEvent'
+        'body': 'deviceKeyEvent(${1:keyValue})$2'
+        'description': 'Send a key event to the device'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/deviceKeyEvent.html'
+        'rightLabelHTML': '<span style="color:#ea5906">deviceKeyEvent()</span> Android'
+
+    'getAppStrings()':
+        'prefix': 'getAppStrings'
+        'body': 'getAppStrings(${1:language})$2'
+        'description': 'Get all defined Strings from an app for the default language'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/getAppStrings.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getAppStrings()</span> Android'
+
+    'getCurrentDeviceActivity()':
+        'prefix': 'getCurrentDeviceActivity'
+        'body': 'getCurrentDeviceActivity()'
+        'description': 'Get current device activity'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/getCurrentDeviceActivity.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getCurrentDeviceActivity()</span> Android'
+
+    'getDeviceTime()':
+        'prefix': 'getDeviceTime'
+        'body': 'getDeviceTime()'
+        'description': 'Captures device date and time'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/getDeviceTime.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getDeviceTime()</span> iOS'
+
+    'getGeoLocation()':
+        'prefix': 'getGeoLocation'
+        'body': 'getGeoLocation()'
+        'description': 'Get the current geolocation'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/getGeoLocation.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getGeoLocation()</span>'
+
+    'getNetworkConnection()':
+        'prefix': 'getNetworkConnection'
+        'body': 'getNetworkConnection()'
+        'description': 'Get informations about the current network connection'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/getNetworkConnection.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getNetworkConnection()</span> Android'
+
+    'getOrientation()':
+        'prefix': 'getOrientation'
+        'body': 'getOrientation()'
+        'description': 'Get the current browser orientation'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/getOrientation.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getOrientation()</span> Android, iOS'
+
+    'hideDeviceKeyboard()':
+        'prefix': 'hideDeviceKeyboard'
+        'body': 'hideDeviceKeyboard(${1:strategy})$2'
+        'description': 'Hide the keyboard'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/hideDeviceKeyboard.html'
+        'rightLabelHTML': '<span style="color:#ea5906">hideDeviceKeyboard()</span> Android, iOS'
+
+    'hold()':
+        'prefix': 'hold'
+        'body': 'hold(${1:selector})$2'
+        'description': 'Long press on an element using finger motion events'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/hold.html'
+        'rightLabelHTML': '<span style="color:#ea5906">hold()</span>'
+
+    'installApp()':
+        'prefix': 'installApp'
+        'body': 'installApp(${1:path})$2'
+        'description': 'Install an app on device'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/installApp.html'
+        'rightLabelHTML': '<span style="color:#ea5906">installApp()</span> Android'
+
+    'isAppInstalled()':
+        'prefix': 'isAppInstalled'
+        'body': 'isAppInstalled(${1:bundleId})$2'
+        'description': 'Check if an app is installed'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/isAppInstalled.html'
+        'rightLabelHTML': '<span style="color:#ea5906">isAppInstalled()</span> Android'
+
+    'isLocked()':
+        'prefix': 'isLocked'
+        'body': 'isLocked()'
+        'description': 'Check whether the device is locked or not'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/isLocked.html'
+        'rightLabelHTML': '<span style="color:#ea5906">isLocked()</span> Android'
+
+    'launch()':
+        'prefix': 'launch'
+        'body': 'launch()'
+        'description': 'Launch the session for the desired capabilities'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/launch.html'
+        'rightLabelHTML': '<span style="color:#ea5906">launch()</span> Android, iOS'
+
+    'lock()':
+        'prefix': 'lock'
+        'body': 'lock(${1:seconds})$2'
+        'description': 'Lock the device'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/lock.html'
+        'rightLabelHTML': '<span style="color:#ea5906">lock()</span> Android'
+
+    'longPressKeycode()':
+        'prefix': 'longPressKeycode'
+        'body': 'longPressKeycode(${1:keycode}, ${2:[metastate]})$3'
+        'description': 'Press a particular key code on the device'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/longPressKeycode.html'
+        'rightLabelHTML': '<span style="color:#ea5906">longPressKeycode()</span> Android'
+
+    'openNotifications()':
+        'prefix': 'openNotifications'
+        'body': 'openNotifications()'
+        'description': 'Open the notifications pane on the device'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/openNotifications.html'
+        'rightLabelHTML': '<span style="color:#ea5906">openNotifications()</span> Android'
+
+    'orientation()':
+        'prefix': 'orientation'
+        'body': 'orientation(${1:[deviceOrientation]})$2'
+        'description': 'Protocol bindings for all mobile orientation operations'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/orientation.html'
+        'rightLabelHTML': '<span style="color:#ea5906">orientation()</span> Android, iOS'
+
+    'performMultiAction()':
+        'prefix': 'performMultiAction'
+        'body': 'performMultiAction(${1:touchAttr})$2'
+        'description': 'Perform multi touch action'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/performMultiAction.html'
+        'rightLabelHTML': '<span style="color:#ea5906">performMultiAction()</span> Android, iOS'
+
+    'performTouchAction()':
+        'prefix': 'performTouchAction'
+        'body': 'performTouchAction(${1:touchAttr})$2'
+        'description': 'Perform touch action'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/performTouchAction.html'
+        'rightLabelHTML': '<span style="color:#ea5906">performTouchAction()</span> Android, iOS'
+
+    'pressKeycode()':
+        'prefix': 'pressKeycode'
+        'body': 'pressKeycode(${1:keycode}, ${2:[metastate]})$3'
+        'description': 'Press a particular key code on the device'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/pressKeycode.html'
+        'rightLabelHTML': '<span style="color:#ea5906">pressKeycode()</span> Android'
+
+    'pullFile()':
+        'prefix': 'pullFile'
+        'body': 'pullFile(${1:path})$2'
+        'description': 'Pulls a file from the device'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/pullFile.html'
+        'rightLabelHTML': '<span style="color:#ea5906">pullFile()</span> Android, iOS'
+
+    'pullFolder()':
+        'prefix': 'pullFolder'
+        'body': 'pullFolder(${1:path})$2'
+        'description': 'Pulls a folder from the device’s file system'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/pullFolder.html'
+        'rightLabelHTML': '<span style="color:#ea5906">pullFolder()</span> Android, iOS'
+
+    'pushFile()':
+        'prefix': 'pushFile'
+        'body': 'pushFile(${1:path})$2'
+        'description': 'Pushes a file to the device'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/pushFile.html'
+        'rightLabelHTML': '<span style="color:#ea5906">pushFile()</span> Android, iOS'
+
+    'release()':
+        'prefix': 'release'
+        'body': 'release(${1:selector})$2'
+        'description': 'Release touch sequence on specific element'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/release.html'
+        'rightLabelHTML': '<span style="color:#ea5906">release()</span>'
+
+    'removeApp()':
+        'prefix': 'removeApp'
+        'body': 'removeApp(${1:bundleId})$2'
+        'description': 'Remove an app from the device'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/removeApp.html'
+        'rightLabelHTML': '<span style="color:#ea5906">removeApp()</span> Android'
+
+    'reset()':
+        'prefix': 'reset'
+        'body': 'reset()'
+        'description': 'Reset the device by clearing the device un- and reinstalling app package'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/reset.html'
+        'rightLabelHTML': '<span style="color:#ea5906">reset()</span> Android'
+
+    'rotate()':
+        'prefix': 'rotate'
+        'body': 'rotate(${1:x}, ${2:y}, ${3:[duration]}, ${4:[radius]}, ${5:[rotation]}, ${6:[touchCount]})$7'
+        'description': 'Perform a rotation gesture centered on the specified element'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/rotate.html'
+        'rightLabelHTML': '<span style="color:#ea5906">rotate()</span> iOS'
+
+    'setGeoLocation()':
+        'prefix': 'setGeoLocation'
+        'body': 'setGeoLocation({latitude: ${1:number}, longitude: ${2:number}, altitude: ${3:number}})$4'
+        'description': 'Set the current geo location'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/setGeoLocation.html'
+        'rightLabelHTML': '<span style="color:#ea5906">setGeoLocation()</span>'
+
+    'setImmediateValue()':
+        'prefix': 'setImmediateValue'
+        'body': 'setImmediateValue(${1:ID}, ${2:value})$3'
+        'description': 'Set immediate value in app'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/setImmediateValue.html'
+        'rightLabelHTML': '<span style="color:#ea5906">setImmediateValue()</span> iOS'
+
+    'setNetworkConnection()':
+        'prefix': 'setNetworkConnection'
+        'body': 'setNetworkConnection()'
+        'description': 'Set network connection'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/setNetworkConnection.html'
+        'rightLabelHTML': '<span style="color:#ea5906">setNetworkConnection()</span> Selendroid'
+
+    'setOrientation()':
+        'prefix': 'setOrientation'
+        'body': 'setOrientation(${1:orientation})$2'
+        'description': 'Set a device orientation'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/setOrientation.html'
+        'rightLabelHTML': '<span style="color:#ea5906">setOrientation()</span> Android, iOS'
+
+    'settings()':
+        'prefix': 'settings'
+        'body': 'settings(${1:[settings]})$2'
+        'description': 'Either retrieve all the currently specified settings or update the current setting'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/settings.html'
+        'rightLabelHTML': '<span style="color:#ea5906">settings()</span>'
+
+    'shake()':
+        'prefix': 'shake'
+        'body': 'shake()'
+        'description': 'Perform a shake action on the device'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/shake.html'
+        'rightLabelHTML': '<span style="color:#ea5906">shake()</span> iOS'
+
+    'startActivity()':
+        'prefix': 'startActivity'
+        'body': 'startActivity(${1:appPackage}, ${2:appActivity})$3'
+        'description': 'Start an arbitrary activity during a session'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/startActivity.html'
+        'rightLabelHTML': '<span style="color:#ea5906">startActivity()</span> Android'
+
+    'strings()':
+        'prefix': 'strings'
+        'body': 'strings(${1:language})$2'
+        'description': 'Returns application strings of the application in a specific language'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/strings.html'
+        'rightLabelHTML': '<span style="color:#ea5906">strings()</span>'
+
+    'swipe()':
+        'prefix': 'swipe'
+        'body': 'swipe(${1:[selector]}, ${2:[xoffset]}, ${3:[yoffset]}, ${4:[speed]})$5'
+        'description': 'Perform a swipe on the screen or an element'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/swipe.html'
+        'rightLabelHTML': '<span style="color:#ea5906">swipe()</span>'
+
+    'swipeDown()':
+        'prefix': 'swipeDown'
+        'body': 'swipeDown(${1:selector}, ${2:speed})$3'
+        'description': 'Perform a swipe down on an element'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/swipeDown.html'
+        'rightLabelHTML': '<span style="color:#ea5906">swipeDown()</span>'
+
+    'swipeLeft()':
+        'prefix': 'swipeLeft'
+        'body': 'swipeLeft(${1:selector}, ${2:speed})$3'
+        'description': 'Perform a swipe left on an element'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/swipeLeft.html'
+        'rightLabelHTML': '<span style="color:#ea5906">swipeLeft()</span>'
+
+    'swipeRight()':
+        'prefix': 'swipeRight'
+        'body': 'swipeRight(${1:selector}, ${2:speed})$3'
+        'description': 'Perform a swipe right on an element'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/swipeRight.html'
+        'rightLabelHTML': '<span style="color:#ea5906">swipeRight()</span>'
+
+    'swipeUp()':
+        'prefix': 'swipeUp'
+        'body': 'swipeUp(${1:selector}, ${2:speed})$3'
+        'description': 'Perform a swipe up on an element'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/swipeUp.html'
+        'rightLabelHTML': '<span style="color:#ea5906">swipeUp()</span>'
+
+    'toggleAirplaneMode()':
+        'prefix': 'toggleAirplaneMode'
+        'body': 'toggleAirplaneMode()'
+        'description': 'Switch the state (enabled/disabled) of airplane mode'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/toggleAirplaneMode.html'
+        'rightLabelHTML': '<span style="color:#ea5906">toggleAirplaneMode()</span> Android'
+
+    'toggleData()':
+        'prefix': 'toggleData'
+        'body': 'toggleData()'
+        'description': 'Switch the state (enabled/disabled) of data service'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/toggleData.html'
+        'rightLabelHTML': '<span style="color:#ea5906">toggleData()</span> Android'
+
+    'toggleLocationServices()':
+        'prefix': 'toggleLocationServices'
+        'body': 'toggleLocationServices()'
+        'description': 'Switch the state (enabled/disabled) of the location service'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/toggleLocationServices.html'
+        'rightLabelHTML': '<span style="color:#ea5906">toggleLocationServices()</span> Android'
+
+    'toggleWiFi()':
+        'prefix': 'toggleWiFi'
+        'body': 'toggleWiFi()'
+        'description': 'Switch the state (enabled/disabled) of the wifi service'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/toggleWiFi.html'
+        'rightLabelHTML': '<span style="color:#ea5906">toggleWiFi()</span> Android'
+
+    'touch()':
+        'prefix': 'touch'
+        'body': 'touch(${1:selector}, ${2:longClick})$3'
+        'description': 'Put finger on an element (only in mobile context)'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/touch.html'
+        'rightLabelHTML': '<span style="color:#ea5906">touch()</span>'
+
+    'touchAction()':
+        'prefix': 'touchAction'
+        'body': 'touchAction(${1:selector}, ${2:action})$3'
+        'description': 'Provides the basis of all gestures that can be automated in Appium'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/touchAction.html'
+        'rightLabelHTML': '<span style="color:#ea5906">touchAction()</span> Android, iOS'
+
+    'touchId()':
+        'prefix': 'touchId'
+        'body': 'touchId(${1:match})$2'
+        'description': 'Simulate Touch ID with either valid or invalid fingerprint'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/touchId.html'
+        'rightLabelHTML': '<span style="color:#ea5906">touchId()</span> iOS'
+
+    'touchMultiPerform()':
+        'prefix': 'touchMultiPerform'
+        'body': 'touchMultiPerform(${1:actions})$2'
+        'description': 'Performs multiple touch actions'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/touchMultiPerform.html'
+        'rightLabelHTML': '<span style="color:#ea5906">touchMultiPerform()</span> Android, iOS'
+
+    'touchPerform()':
+        'prefix': 'touchPerform'
+        'body': 'touchPerform(${1:action})$2'
+        'description': 'Performs a specific touch action'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/touchPerform.html'
+        'rightLabelHTML': '<span style="color:#ea5906">touchPerform()</span> Android, iOS'
+
+    'unlock()':
+        'prefix': 'unlock'
+        'body': 'unlock()'
+        'description': 'Unlock the device'
+        'descriptionMoreURL': 'http://webdriver.io/api/mobile/unlock.html'
+        'rightLabelHTML': '<span style="color:#ea5906">unlock()</span> Android'

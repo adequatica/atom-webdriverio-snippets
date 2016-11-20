@@ -1,0 +1,50 @@
+'.source.js':
+
+    'close()':
+        'prefix': 'close'
+        'body': 'close(${1:[windowHandle]})$2'
+        'description': 'Close current window (and focus on an other window)'
+        'descriptionMoreURL': 'http://webdriver.io/api/window/close.html'
+        'rightLabelHTML': '<span style="color:#ea5906">close()</span>'
+
+    'getCurrentTabId()':
+        'prefix': 'getCurrentTabId'
+        'body': 'getCurrentTabId()'
+        'description': 'Retrieve the current window handle'
+        'descriptionMoreURL': 'http://webdriver.io/api/window/getCurrentTabId.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getCurrentTabId()</span>'
+
+    'getTabIds()':
+        'prefix': 'getTabIds'
+        'body': 'getTabIds()'
+        'description': 'Retrieve a list of all window handles available in the session'
+        'descriptionMoreURL': 'http://webdriver.io/api/window/getTabIds.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getTabIds()</span>'
+
+    'getViewportSize()':
+        'prefix': 'getViewportSize'
+        'body': 'getViewportSize(${1:property})$2'
+        'description': 'Get viewport size of the current browser window'
+        'descriptionMoreURL': 'http://webdriver.io/api/window/getViewportSize.html'
+        'rightLabelHTML': '<span style="color:#ea5906">getViewportSize()</span>'
+
+    'newWindow()':
+        'prefix': 'newWindow'
+        'body': 'newWindow(${1:url}, ${2:windowName}, ${3:windowFeatures})$4'
+        'description': 'Open new window in browser'
+        'descriptionMoreURL': 'http://webdriver.io/api/window/newWindow.html'
+        'rightLabelHTML': '<span style="color:#ea5906">newWindow()</span>'
+
+    'setViewportSize()':
+        'prefix': 'setViewportSize'
+        'body': 'setViewportSize(${1:size}, ${2:type})$3'
+        'description': 'Changes the viewport size of the browser'
+        'descriptionMoreURL': 'http://webdriver.io/api/window/setViewportSize.html'
+        'rightLabelHTML': '<span style="color:#ea5906">setViewportSize()</span>'
+
+    'switchTab()':
+        'prefix': 'switchTab'
+        'body': 'switchTab(${1:[windowHandle]})$2'
+        'description': 'Switch focus to a particular tab/window handle'
+        'descriptionMoreURL': 'http://webdriver.io/api/window/switchTab.html'
+        'rightLabelHTML': '<span style="color:#ea5906">switchTab()</span>'

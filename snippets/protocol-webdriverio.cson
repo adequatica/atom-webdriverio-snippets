@@ -1,0 +1,407 @@
+'.source.js':
+
+    'alertAccept()':
+        'prefix': 'alertAccept'
+        'body': 'alertAccept()'
+        'description': 'Accepts the currently displayed alert dialog'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/alertAccept.html'
+        'rightLabelHTML': '<span style="color:#ea5906">alertAccept()</span>'
+
+    'alertDismiss()':
+        'prefix': 'alertDismiss'
+        'body': 'alertDismiss()'
+        'description': 'Dismisses the currently displayed alert dialog'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/alertDismiss.html'
+        'rightLabelHTML': '<span style="color:#ea5906">alertDismiss()</span>'
+
+    'alertText()':
+        'prefix': 'alertText'
+        'body': 'alertText(${1:[text]})$2'
+        'description': 'Gets the text of the currently displayed JavaScript dialog'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/alertText.html'
+        'rightLabelHTML': '<span style="color:#ea5906">alertText()</span>'
+
+    'applicationCacheStatus()':
+        'prefix': 'applicationCacheStatus'
+        'body': 'applicationCacheStatus()'
+        'description': 'Get the status of the HTLM5 application cache'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/applicationCacheStatus.html'
+        'rightLabelHTML': '<span style="color:#ea5906">applicationCacheStatus()</span>'
+
+    'back()':
+        'prefix': 'back'
+        'body': 'back()'
+        'description': 'Navigate backwards in the browser history'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/back.html'
+        'rightLabelHTML': '<span style="color:#ea5906">back()</span>'
+
+    'buttonDown()':
+        'prefix': 'buttonDown'
+        'body': 'buttonDown(${1:button})$2'
+        'description': 'Click and hold the left mouse button'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/buttonDown.html'
+        'rightLabelHTML': '<span style="color:#ea5906">buttonDown()</span>'
+
+    'buttonPress()':
+        'prefix': 'buttonPress'
+        'body': 'buttonPress(${1:button})$2'
+        'description': 'Click any mouse button (at the coordinates set by the last moveto command)'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/buttonPress.html'
+        'rightLabelHTML': '<span style="color:#ea5906">buttonPress()</span>'
+
+    'buttonUp()':
+        'prefix': 'buttonUp'
+        'body': 'buttonUp()'
+        'description': 'Releases the mouse button previously held (where the mouse is currently at)'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/buttonUp.html'
+        'rightLabelHTML': '<span style="color:#ea5906">buttonUp()</span>'
+
+    'cookie()':
+        'prefix': 'cookie'
+        'body': 'cookie(${1:[method]}, ${2:[args]})$3'
+        'description': 'Protocol binding to operate with cookies on the current page'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/cookie.html'
+        'rightLabelHTML': '<span style="color:#ea5906">cookie()</span>'
+
+    'doDoubleClick()':
+        'prefix': 'doDoubleClick'
+        'body': 'doDoubleClick()'
+        'description': 'Double-clicks at the current mouse coordinates'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/doDoubleClick.html'
+        'rightLabelHTML': '<span style="color:#ea5906">doDoubleClick()</span>'
+
+    'element()':
+        'prefix': 'element'
+        'body': 'element(${1:selector})$2'
+        'description': 'Search for an element on the page, starting from the document root'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/element.html'
+        'rightLabelHTML': '<span style="color:#ea5906">element()</span>'
+
+    'elementActive()':
+        'prefix': 'elementActive'
+        'body': 'elementActive(${1:selector})$2'
+        'description': 'Search for an e1ement on the page, starting from the document root'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementActive.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementActive()</span>'
+
+    'elementIdAttribute()':
+        'prefix': 'elementIdAttribute'
+        'body': 'elementIdAttribute(${1:ID}, ${2:attributeName})'
+        'description': 'Get the value of an element’s attribute'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementIdAttribute.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementIdAttribute()</span>'
+
+    'elementIdClear()':
+        'prefix': 'elementIdClear'
+        'body': 'elementIdClear(${1:ID})$2'
+        'description': 'Clear a TEXTAREA or text <intut> element’s value.'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementIdClear.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementIdClear()</span>'
+
+    'elementIdClick()':
+        'prefix': 'elementIdClick'
+        'body': 'elementIdClick()'
+        'description': 'Click on an element'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementIdClick.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementIdClick()</span>'
+
+    'elementIdCssProperty()':
+        'prefix': 'elementIdCssProperty'
+        'body': 'elementIdCssProperty(${1:ID}, ${2:cssPropertyName})$3'
+        'description': 'Query the value of an element’s computed CSS property'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementIdCssProperty.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementIdCssProperty()</span>'
+
+    'elementIdDisplayed()':
+        'prefix': 'elementIdDisplayed'
+        'body': 'elementIdDisplayed(${1:ID})$2'
+        'description': 'Determine if an element is currently displayed'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementIdDisplayed.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementIdDisplayed()</span>'
+
+    'elementIdElement()':
+        'prefix': 'elementIdElement'
+        'body': 'elementIdElement(${1:ID}, ${2:selector})$3'
+        'description': 'Search for an element on the page, starting from an element'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementIdElement.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementIdElement()</span>'
+
+    'elementIdElements()':
+        'prefix': 'elementIdElements'
+        'body': 'elementIdElements(${1:ID}, ${2:selector})$3'
+        'description': 'Search for multiple elements on the page, starting from an element'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementIdElements.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementIdElements()</span>'
+
+    'elementIdEnabled()':
+        'prefix': 'elementIdEnabled'
+        'body': 'elementIdEnabled(${1:ID})$2'
+        'description': 'Determine if an element is currently enabled'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementIdEnabled.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementIdEnabled()</span>'
+
+    'elementIdName()':
+        'prefix': 'elementIdName'
+        'body': 'elementIdName(${1:ID})$2'
+        'description': 'Query for an element’s tag name'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementIdName.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementIdName()</span>'
+
+    'elementIdRect()':
+        'prefix': 'elementIdRect'
+        'body': 'elementIdRect(${1:ID})$2'
+        'description': 'Returns the dimensions and coordinates of the given web element'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementIdRect.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementIdRect()</span>'
+
+    'elementIdSelected()':
+        'prefix': 'elementIdSelected'
+        'body': 'elementIdSelected(${1:ID})$2'
+        'description': 'Determine if an <option> or an <input> element is currently selected'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementIdSelected.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementIdSelected()</span>'
+
+    'elementIdText()':
+        'prefix': 'elementIdText'
+        'body': 'elementIdText(${1:ID})$2'
+        'description': 'Returns the visible text for the element'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementIdText.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementIdText()</span>'
+
+    'elementIdValue()':
+        'prefix': 'elementIdValue'
+        'body': 'elementIdValue(${1:ID}, ${2:value})$3'
+        'description': 'Send a sequence of key strokes to an element'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elementIdValue.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elementIdValue()</span>'
+
+    'elements()':
+        'prefix': 'elements'
+        'body': 'elements(${1:selector})$2'
+        'description': 'Search for multiple elements on the page, starting from the document root'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/elements.html'
+        'rightLabelHTML': '<span style="color:#ea5906">elements()</span>'
+
+    'execute()':
+        'prefix': 'execute'
+        'body': 'execute(${1:script})$2'
+        'description': 'Inject a snippet of JavaScript into the page for execution'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/execute.html'
+        'rightLabelHTML': '<span style="color:#ea5906">execute()</span>'
+
+    'executeAsync()':
+        'prefix': 'executeAsync'
+        'body': 'executeAsync(${1:script})$2'
+        'description': 'Inject a snippet of JavaScript into the page for execution'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/executeAsync.html'
+        'rightLabelHTML': '<span style="color:#ea5906">executeAsync()</span>'
+
+    'file()':
+        'prefix': 'file'
+        'body': 'file(${1:data})$2'
+        'description': 'Uploads a base64 data object'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/file.html'
+        'rightLabelHTML': '<span style="color:#ea5906">file()</span>'
+
+    'forward()':
+        'prefix': 'forward'
+        'body': 'forward()'
+        'description': 'Navigate forwards in the browser history'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/forward.html'
+        'rightLabelHTML': '<span style="color:#ea5906">forward()</span>'
+
+    'frame()':
+        'prefix': 'frame'
+        'body': 'frame(${1:ID})$2'
+        'description': 'Change focus to another frame on the page'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/frame.html'
+        'rightLabelHTML': '<span style="color:#ea5906">frame()</span>'
+
+    'frameParent()':
+        'prefix': 'frameParent'
+        'body': 'frameParent()'
+        'description': 'Change focus to the parent context'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/frameParent.html'
+        'rightLabelHTML': '<span style="color:#ea5906">frameParent()</span>'
+
+    'init()':
+        'prefix': 'init'
+        'body': 'init(${1:[capabilities]})$2'
+        'description': 'Create a new session'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/init.html'
+        'rightLabelHTML': '<span style="color:#ea5906">init()</span>'
+
+    'keys()':
+        'prefix': 'keys'
+        'body': 'keys(${1:value})$2'
+        'description': 'Send a sequence of key strokes to the active element'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/keys.html'
+        'rightLabelHTML': '<span style="color:#ea5906">keys()</span>'
+
+    'localStorage()':
+        'prefix': 'localStorage'
+        'body': 'localStorage(${1:method}, ${2:[args]})$3'
+        'description': 'Protocol bindings for all local storage operations'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/localStorage.html'
+        'rightLabelHTML': '<span style="color:#ea5906">localStorage()</span>'
+
+    'localStorageSize()':
+        'prefix': 'localStorageSize'
+        'body': 'localStorageSize()'
+        'description': 'Protocol bindings to get local storage size'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/localStorageSize.html'
+        'rightLabelHTML': '<span style="color:#ea5906">localStorageSize()</span>'
+
+    'location()':
+        'prefix': 'location'
+        'body': 'location(${1:location})$2'
+        'description': 'Protocol bindings for all geolocation operations'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/location.html'
+        'rightLabelHTML': '<span style="color:#ea5906">location()</span>'
+
+    'log()':
+        'prefix': 'log'
+        'body': 'log(${1:type})$2'
+        'description': 'Get the log for a given log type'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/log.html'
+        'rightLabelHTML': '<span style="color:#ea5906">log()</span>'
+
+    'logTypes()':
+        'prefix': 'logTypes'
+        'body': 'logTypes()'
+        'description': 'Get available log types'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/logTypes.html'
+        'rightLabelHTML': '<span style="color:#ea5906">logTypes()</span>'
+
+    'moveTo()':
+        'prefix': 'moveTo'
+        'body': 'moveTo(${1:element}, ${2:xoffset}, ${3:yoffset})$4'
+        'description': 'Move the mouse by an offset of the specificed element'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/moveTo.html'
+        'rightLabelHTML': '<span style="color:#ea5906">moveTo()</span>'
+
+    'refresh()':
+        'prefix': 'refresh'
+        'body': 'refresh()'
+        'description': 'Refresh the current page'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/refresh.html'
+        'rightLabelHTML': '<span style="color:#ea5906">refresh()</span>'
+
+    'screenshot()':
+        'prefix': 'screenshot'
+        'body': 'screenshot()'
+        'description': 'Take a screenshot of the current viewport'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/screenshot.html'
+        'rightLabelHTML': '<span style="color:#ea5906">screenshot()</span>'
+
+    'session()':
+        'prefix': 'session'
+        'body': 'session(${1:[doWhat]}, ${2:sessionId})$3'
+        'description': 'Protocol bindings for all session operations'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/session.html'
+        'rightLabelHTML': '<span style="color:#ea5906">session()</span>'
+
+    'sessionStorage()':
+        'prefix': 'sessionStorage'
+        'body': 'sessionStorage(${1:[method]}, ${2:[args]})$3'
+        'description': 'Protocol bindings for all session storage operations'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/sessionStorage.html'
+        'rightLabelHTML': '<span style="color:#ea5906">sessionStorage()</span>'
+
+    'sessionStorageSize()':
+        'prefix': 'sessionStorageSize'
+        'body': 'sessionStorageSize()'
+        'description': 'Protocol bindings to get the session storage size'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/sessionStorageSize.html'
+        'rightLabelHTML': '<span style="color:#ea5906">sessionStorageSize()</span>'
+
+    'sessions()':
+        'prefix': 'sessions'
+        'body': 'sessions()'
+        'description': 'Returns a list of the currently active sessions'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/sessions.html'
+        'rightLabelHTML': '<span style="color:#ea5906">sessions()</span>'
+
+    'source()':
+        'prefix': 'source'
+        'body': 'source()'
+        'description': 'Get the current page source'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/source.html'
+        'rightLabelHTML': '<span style="color:#ea5906">source()</span>'
+
+    'status()':
+        'prefix': 'status'
+        'body': 'status()'
+        'description': 'Query the server’s current status'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/status.html'
+        'rightLabelHTML': '<span style="color:#ea5906">status()</span>'
+
+    'submit()':
+        'prefix': 'submit'
+        'body': 'submit(${1:ID})$2'
+        'description': 'Submit a <form> element'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/submit.html'
+        'rightLabelHTML': '<span style="color:#ea5906">submit()</span>'
+
+    'timeouts()':
+        'prefix': 'timeouts'
+        'body': 'timeouts(${1:type}, ${2:ms})$3'
+        'description': 'Configure the amount of time that a particular type of operation can execute'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/timeouts.html'
+        'rightLabelHTML': '<span style="color:#ea5906">timeouts()</span>'
+
+    'title()':
+        'prefix': 'title'
+        'body': 'title()'
+        'description': 'Gets an object containing the current page title'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/title.html'
+        'rightLabelHTML': '<span style="color:#ea5906">title()</span>'
+
+    'url()':
+        'prefix': 'url'
+        'body': 'url(${1:[URL]})$2'
+        'description': 'Protocol binding to load or get the URL of the browser'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/url.html'
+        'rightLabelHTML': '<span style="color:#ea5906">url()</span>'
+
+    'window()':
+        'prefix': 'window'
+        'body': 'window(${1:[windowHandle]})$2'
+        'description': 'Protocol binding to handle with tabs in the browser'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/window.html'
+        'rightLabelHTML': '<span style="color:#ea5906">window()</span>'
+
+    'windowHandle()':
+        'prefix': 'windowHandle'
+        'body': 'windowHandle()'
+        'description': 'Retrieve the current window handle'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/windowHandle.html'
+        'rightLabelHTML': '<span style="color:#ea5906">windowHandle()</span>'
+
+    'windowHandleFullscreen()':
+        'prefix': 'windowHandleFullscreen'
+        'body': 'windowHandleFullscreen()'
+        'description': 'Invokes the window manager-specific “full screen” operation'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/windowHandleFullscreen.html'
+        'rightLabelHTML': '<span style="color:#ea5906">windowHandleFullscreen()</span>'
+
+    'windowHandleMaximize()':
+        'prefix': 'windowHandleMaximize'
+        'body': 'windowHandleMaximize(${1:[windowHandle]})$2'
+        'description': 'Maximize the specified window if not already maximized'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/windowHandleMaximize.html'
+        'rightLabelHTML': '<span style="color:#ea5906">windowHandleMaximize()</span>'
+
+    'windowHandleSize()':
+        'prefix': 'windowHandleSize'
+        'body': 'windowHandleSize(${1:[windowHandle]}, {width: ${2:[dimension]}, height: ${3:[dimension]}})$4'
+        'description': 'Protocol binding to get or change the size of the browser'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/windowHandleSize.html'
+        'rightLabelHTML': '<span style="color:#ea5906">windowHandleSize()</span>'
+
+    'windowHandles()':
+        'prefix': 'windowHandles'
+        'body': 'windowHandles()'
+        'description': 'Retrieve the list of all window handles available to the session'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/windowHandles.html'
+        'rightLabelHTML': '<span style="color:#ea5906">windowHandles()</span>'

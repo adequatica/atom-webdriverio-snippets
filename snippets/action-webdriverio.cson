@@ -1,0 +1,120 @@
+'.source.js':
+
+    'addValue()':
+        'prefix': 'addValue'
+        'body': 'addValue(${1:selector}, ${2:values})$3'
+        'description': 'Add a value to an object found by given selector'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/addValue.html'
+        'rightLabelHTML': '<span style="color:#ea5906">addValue()</span>'
+
+    'clearElement()':
+        'prefix': 'clearElement'
+        'body': 'clearElement(${1:selector})$2'
+        'description': 'Clear a <textarea> or text <input> element’s value'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/clearElement.html'
+        'rightLabelHTML': '<span style="color:#ea5906">clearElement()</span>'
+
+    'click()':
+        'prefix': 'click'
+        'body': 'click(${1:selector})$2'
+        'description': 'Click on an element based on given selector'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/click.html'
+        'rightLabelHTML': '<span style="color:#ea5906">click()</span>'
+
+    'doubleClick()':
+        'prefix': 'doubleClick'
+        'body': 'doubleClick(${1:selector})$2'
+        'description': 'Double-click on an element based on given selector'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/doubleClick.html'
+        'rightLabelHTML': '<span style="color:#ea5906">doubleClick()</span>'
+
+    'dragAndDrop()':
+        'prefix': 'dragAndDrop'
+        'body': 'dragAndDrop(${1:sourceElem}, ${2:destinationElem})$3'
+        'description': 'Drag an item to a destination element'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/dragAndDrop.html'
+        'rightLabelHTML': '<span style="color:#ea5906">dragAndDrop()</span>'
+
+    'leftClick()':
+        'prefix': 'leftClick'
+        'body': 'leftClick(${1:selector}, ${2:xoffset}, ${3:yoffset})$4'
+        'description': 'Apply left click on an element'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/leftClick.html'
+        'rightLabelHTML': '<span style="color:#ea5906">leftClick()</span>'
+
+    'middleClick()':
+        'prefix': 'middleClick'
+        'body': 'middleClick(${1:selector}, ${2:xoffset}, ${3:yoffset})$4'
+        'description': 'Apply middle click on an element'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/middleClick.html'
+        'rightLabelHTML': '<span style="color:#ea5906">middleClick()</span>'
+
+    'moveToObject()':
+        'prefix': 'moveToObject'
+        'body': 'moveToObject(${1:selector}, ${2:xoffset}, ${3:yoffset})$4'
+        'description': 'Move the mouse by an offset of the specificed element'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/moveToObject.html'
+        'rightLabelHTML': '<span style="color:#ea5906">moveToObject()</span>'
+
+    'rightClick()':
+        'prefix': 'rightClick'
+        'body': 'rightClick(${1:selector}, ${2:xoffset}, ${3:yoffset})$4'
+        'description': 'Apply right click on an element'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/rightClick.html'
+        'rightLabelHTML': '<span style="color:#ea5906">rightClick()</span>'
+
+    'selectByAttribute()':
+        'prefix': 'selectByAttribute'
+        'body': 'selectByAttribute(${1:selector}, ${2:attribute}, ${3:value})$4'
+        'description': 'Select option with a specific value'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/selectByAttribute.html'
+        'rightLabelHTML': '<span style="color:#ea5906">selectByAttribute()</span>'
+
+    'selectByIndex()':
+        'prefix': 'selectByIndex'
+        'body': 'selectByIndex(${1:selector}, ${2:index})$3'
+        'description': 'Select option with a specific index'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/selectByIndex.html'
+        'rightLabelHTML': '<span style="color:#ea5906">selectByIndex()</span>'
+
+    'selectByValue()':
+        'prefix': 'selectByValue'
+        'body': 'selectByValue(${1:selector}, ${2:value})$3'
+        'description': 'Select option with a specific value'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/selectByValue.html'
+        'rightLabelHTML': '<span style="color:#ea5906">selectByValue()</span>'
+
+    'selectByVisibleText()':
+        'prefix': 'selectByVisibleText'
+        'body': 'selectByVisibleText(${1:selector}, ${2:text})$3'
+        'description': 'Select option that display text matching the argument'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/selectByVisibleText.html'
+        'rightLabelHTML': '<span style="color:#ea5906">selectByVisibleText()</span>'
+
+    'selectorExecute()':
+        'prefix': 'selectorExecute'
+        'body': 'selectorExecute(${1:selector}, ${2:script})$3'
+        'description': 'Pass HTML elements to the function you wish to execute in the browser'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/selectorExecute.html'
+        'rightLabelHTML': '<span style="color:#ea5906">selectorExecute()</span>'
+
+    'selectorExecuteAsync()':
+        'prefix': 'selectorExecuteAsync'
+        'body': 'selectorExecuteAsync(${1:selector}, ${2:script})$3'
+        'description': 'Pass HTML elements to the asynchronous function you wish to execute in the browser'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/selectorExecuteAsync.html'
+        'rightLabelHTML': '<span style="color:#ea5906">selectorExecuteAsync()</span>'
+
+    'setValue()':
+        'prefix': 'setValue'
+        'body': 'setValue(${1:selector})$2'
+        'description': 'Send a sequence of key strokes to an element (clears value before)'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/setValue.html'
+        'rightLabelHTML': '<span style="color:#ea5906">setValue()</span>'
+
+    'submitForm()':
+        'prefix': 'submitForm'
+        'body': 'submitForm(${1:selector})$2'
+        'description': 'Submits a form found by given selector'
+        'descriptionMoreURL': 'http://webdriver.io/api/action/submitForm.html'
+        'rightLabelHTML': '<span style="color:#ea5906">submitForm()</span>'

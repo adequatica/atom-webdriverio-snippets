@@ -1,0 +1,43 @@
+'.source.js':
+
+    'hasFocus()':
+        'prefix': 'hasFocus'
+        'body': 'hasFocus(${1:selector})$2'
+        'description': 'Return true if the selected DOM-element currently has focus'
+        'descriptionMoreURL': 'http://webdriver.io/api/state/hasFocus.html'
+        'rightLabelHTML': '<span style="color:#ea5906">hasFocus()</span>'
+
+    'isEnabled()':
+        'prefix': 'isEnabled'
+        'body': 'isEnabled(${1:selector})$2'
+        'description': 'Return true if the selected DOM-element found by given selector is enabled'
+        'descriptionMoreURL': 'http://webdriver.io/api/state/isEnabled.html'
+        'rightLabelHTML': '<span style="color:#ea5906">isEnabled()</span>'
+
+    'isExisting()':
+        'prefix': 'isExisting'
+        'body': 'isExisting(${1:selector})$2'
+        'description': 'Returns true if at least one element is existing by given selector'
+        'descriptionMoreURL': 'http://webdriver.io/api/state/isExisting.html'
+        'rightLabelHTML': '<span style="color:#ea5906">isExisting()</span>'
+
+    'isSelected()':
+        'prefix': 'isSelected'
+        'body': 'isSelected(${1:selector})$2'
+        'description': 'Return true if an <option> element, or an <input> element is currently selected'
+        'descriptionMoreURL': 'http://webdriver.io/api/state/isSelected.html'
+        'rightLabelHTML': '<span style="color:#ea5906">isSelected()</span>'
+
+    'isVisible()':
+        'prefix': 'isVisible'
+        'body': 'isVisible(${1:selector})$2'
+        'description': 'Return true if the selected DOM-element is visible'
+        'descriptionMoreURL': 'http://webdriver.io/api/state/isVisible.html'
+        'rightLabelHTML': '<span style="color:#ea5906">isVisible()</span>'
+
+    'isVisibleWithinViewport()':
+        'prefix': 'isVisibleWithinViewport'
+        'body': 'isVisibleWithinViewport(${1:selector})$2'
+        'description': 'Return true if the selected DOM-element is visible and within the viewport'
+        'descriptionMoreURL': 'http://webdriver.io/api/state/isVisibleWithinViewport.html'
+        'rightLabelHTML': '<span style="color:#ea5906">isVisibleWithinViewport()</span>'
