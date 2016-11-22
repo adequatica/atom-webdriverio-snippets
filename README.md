@@ -2,7 +2,7 @@
 
 [WebdriverIO](http://webdriver.io/) is an open source testing utility for Node.js. It has all implementations of [WebDriver protocol](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol) commands.
 
-There are all WebdriverIO API commands, except deprecated and mobile API commands – check out [this package for them](https://atom.io/packages/webdriverio-mobile-snippets-snippets).
+There are all WebdriverIO API commands, except deprecated and mobile API commands – check out [this package for them](https://atom.io/packages/webdriverio-mobile-snippets).
 
 ### How to use
 
