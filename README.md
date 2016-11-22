@@ -6,6 +6,8 @@ There are all WebdriverIO API commands, except deprecated and mobile API command
 
 ### How to use
 
-Start writing a WebdriverIO command, choose suitable one from the suggest and press the ```tab``` or ```enter``` key to autocomplete. It makes writing integration test with WebdriverIO easier and faster.
+Start writing a WebdriverIO command, choose suitable one from the suggest and press the `tab` or `enter` key to autocomplete. It makes writing integration test with WebdriverIO easier and faster:
 
-All snippets provide a short description and a link to the [official documentation](http://webdriver.io/api.html), just click ```More``` at the bottom of the suggest.
+![How it works](https://github.com/enotramone/atom-webdriverio-snippets/raw/gif/how-it-works.gif "How it works")
+
+All snippets provide a short description and a link to the [official documentation](http://webdriver.io/api.html), just click `More` at the bottom of the suggest.
