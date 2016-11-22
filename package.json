@@ -1,14 +1,16 @@
 {
   "name": "webdriverio-snippets",
   "version": "0.2.0",
-  "description": "Atom snippets for WebdriverIO",
+  "description": "Atom snippets for WebdriverIO API",
   "keywords": [
     "webdriver",
     "webdriverio",
     "webdriver.io",
     "snippets",
     "bindings",
-    "commands"
+    "commands",
+    "selenium",
+    "api"
   ],
   "repository": {
     "type": "git",
