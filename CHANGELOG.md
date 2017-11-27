@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0 - 2017-11-27
+
+* Add 2 new API commands: actions() and windowHandlePosition().
+
 ## 0.3.2 - 2016-11-22
 
 * Fix links to [GIF image](https://giphy.com/gifs/atom-snippets-3o7TKv9GnmHIjJpbYA) and [mobile package](https://atom.io/packages/webdriverio-mobile-snippets).

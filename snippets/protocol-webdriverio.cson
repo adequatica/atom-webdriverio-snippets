@@ -1,5 +1,12 @@
 '.source.js':
 
+    'actions()':
+        'prefix': 'actions'
+        'body': 'actions()'
+        'description': 'Actions are a very complex'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/actions.html'
+        'rightLabelHTML': '<span style="color:#ea5906">actions()</span>'
+
     'alertAccept()':
         'prefix': 'alertAccept'
         'body': 'alertAccept()'
@@ -391,6 +398,13 @@
         'description': 'Maximize the specified window if not already maximized'
         'descriptionMoreURL': 'http://webdriver.io/api/protocol/windowHandleMaximize.html'
         'rightLabelHTML': '<span style="color:#ea5906">windowHandleMaximize()</span>'
+
+    'windowHandlePosition()':
+        'prefix': 'windowHandlePosition'
+        'body': 'windowHandlePosition(${1:[windowHandle]}, {width: ${2:[position]}, height: ${3:[position]}})$4'
+        'description': 'Protocol bindings to receive or change the position of the browser window'
+        'descriptionMoreURL': 'http://webdriver.io/api/protocol/windowHandlePosition.html'
+        'rightLabelHTML': '<span style="color:#ea5906">windowHandlePosition()</span>'
 
     'windowHandleSize()':
         'prefix': 'windowHandleSize'
