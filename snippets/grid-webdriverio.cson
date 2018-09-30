@@ -1,22 +1,22 @@
-'.source.js':
+'.source.js, .source.ts':
 
-    'getGridNodeDetails()':
-        'prefix': 'getGridNodeDetails'
-        'body': 'getGridNodeDetails()'
-        'description': 'Get the details of the Selenium Grid node running a session'
-        'descriptionMoreURL': 'http://webdriver.io/api/grid/getGridNodeDetails.html'
-        'rightLabelHTML': '<span style="color:#ea5906">getGridNodeDetails()</span>'
+  'getGridNodeDetails()':
+    'prefix': 'getGridNodeDetails'
+    'body': 'getGridNodeDetails()'
+    'description': 'Get the details of the Selenium Grid node running a session'
+    'descriptionMoreURL': 'http://webdriver.io/api/grid/getGridNodeDetails.html'
+    'rightLabelHTML': '<span style="color:#ea5906">getGridNodeDetails()</span>'
 
-    'gridProxyDetails()':
-        'prefix': 'gridProxyDetails'
-        'body': 'gridProxyDetails()'
-        'description': 'Get the details of the Selenium Grid node running a session'
-        'descriptionMoreURL': 'http://webdriver.io/api/grid/gridProxyDetails.html'
-        'rightLabelHTML': '<span style="color:#ea5906">gridProxyDetails()</span>'
+  'gridProxyDetails()':
+    'prefix': 'gridProxyDetails'
+    'body': 'gridProxyDetails()'
+    'description': 'Get the details of the Selenium Grid node running a session'
+    'descriptionMoreURL': 'http://webdriver.io/api/grid/gridProxyDetails.html'
+    'rightLabelHTML': '<span style="color:#ea5906">gridProxyDetails()</span>'
 
-    'gridTestSession()':
-        'prefix': 'gridTestSession'
-        'body': 'gridTestSession()'
-        'description': 'Get the details of the Selenium Grid node running a session'
-        'descriptionMoreURL': 'http://webdriver.io/api/grid/gridTestSession.html'
-        'rightLabelHTML': '<span style="color:#ea5906">gridTestSession()</span>'
+  'gridTestSession()':
+    'prefix': 'gridTestSession'
+    'body': 'gridTestSession()'
+    'description': 'Get the details of the Selenium Grid node running a session'
+    'descriptionMoreURL': 'http://webdriver.io/api/grid/gridTestSession.html'
+    'rightLabelHTML': '<span style="color:#ea5906">gridTestSession()</span>'

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.0 - 2018-09-30
+
+* Support TypeScript;
+* Add [CoffeeLint](https://github.com/clutchski/coffeelint) config.
+
 ## 0.4.0 - 2017-11-27
 
 * Add 2 new API commands: actions() and windowHandlePosition().
@@ -14,7 +19,7 @@
 
 ## 0.2.0 - 2016-11-20
 
-*  [Publish package](http://flight-manual.atom.io/hacking-atom/sections/publishing/) to [atom.io package registry](https://atom.io/packages/webdriverio-snippets).
+* [Publish package](http://flight-manual.atom.io/hacking-atom/sections/publishing/) to [atom.io package registry](https://atom.io/packages/webdriverio-snippets).
 
 ## 0.1.0 - 2016-11-20
 

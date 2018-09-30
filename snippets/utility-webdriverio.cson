@@ -1,148 +1,148 @@
-'.source.js':
+'.source.js, .source.ts':
 
-    '$()':
-        'prefix': 'dollar'
-        'body': '$()'
-        'description': 'The $ command is a short way to fetch a single element on the page'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/$.html'
-        'rightLabelHTML': '<span style="color:#ea5906">$()</span>'
+  '$()':
+    'prefix': 'dollar'
+    'body': '$()'
+    'description': 'The $ command is a short way to fetch a single element on the page'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/$.html'
+    'rightLabelHTML': '<span style="color:#ea5906">$()</span>'
 
-    '$$()':
-        'prefix': 'dollars'
-        'body': '$$()'
-        'description': 'The $$ command is a short way to fetch multiple elements on the page'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/$$.html'
-        'rightLabelHTML': '<span style="color:#ea5906">$$()</span>'
+  '$$()':
+    'prefix': 'dollars'
+    'body': '$$()'
+    'description': 'The $$ command is a short way to fetch multiple elements on the page'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/$$.html'
+    'rightLabelHTML': '<span style="color:#ea5906">$$()</span>'
 
-    'addCommand()':
-        'prefix': 'addCommand'
-        'body': 'addCommand(${1:commandName}, ${2:customMethod})$3'
-        'description': 'Add custom command to client/browser instance'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/addCommand.html'
-        'rightLabelHTML': '<span style="color:#ea5906">addCommand()</span>'
+  'addCommand()':
+    'prefix': 'addCommand'
+    'body': 'addCommand(${1:commandName}, ${2:customMethod})$3'
+    'description': 'Add custom command to client/browser instance'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/addCommand.html'
+    'rightLabelHTML': '<span style="color:#ea5906">addCommand()</span>'
 
-    'call()':
-        'prefix': 'call'
-        'body': 'call(${1:callback})$2'
-        'description': 'Use call to execute any async action within your test spec'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/call.html'
-        'rightLabelHTML': '<span style="color:#ea5906">call()</span>'
+  'call()':
+    'prefix': 'call'
+    'body': 'call(${1:callback})$2'
+    'description': 'Use call to execute any async action within your test spec'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/call.html'
+    'rightLabelHTML': '<span style="color:#ea5906">call()</span>'
 
-    'chooseFile()':
-        'prefix': 'chooseFile'
-        'body': 'chooseFile(${1:selector}, ${2:localPath})$3'
-        'description': 'Given selector corresponding to an <input type=file> will upload the local file to the browser'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/chooseFile.html'
-        'rightLabelHTML': '<span style="color:#ea5906">chooseFile()</span>'
+  'chooseFile()':
+    'prefix': 'chooseFile'
+    'body': 'chooseFile(${1:selector}, ${2:localPath})$3'
+    'description': 'Given selector corresponding to an <input type=file> will upload the local file to the browser'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/chooseFile.html'
+    'rightLabelHTML': '<span style="color:#ea5906">chooseFile()</span>'
 
-    'debug()':
-        'prefix': 'debug'
-        'body': 'debug()'
-        'description': 'It stops the running queue and gives you time to jump into the browser'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/debug.html'
-        'rightLabelHTML': '<span style="color:#ea5906">debug()</span>'
+  'debug()':
+    'prefix': 'debug'
+    'body': 'debug()'
+    'description': 'It stops the running queue and gives you time to jump into the browser'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/debug.html'
+    'rightLabelHTML': '<span style="color:#ea5906">debug()</span>'
 
-    'end()':
-        'prefix': 'end'
-        'body': 'end()'
-        'description': 'End the session and close browser'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/end.html'
-        'rightLabelHTML': '<span style="color:#ea5906">end()</span>'
+  'end()':
+    'prefix': 'end'
+    'body': 'end()'
+    'description': 'End the session and close browser'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/end.html'
+    'rightLabelHTML': '<span style="color:#ea5906">end()</span>'
 
-    'endAll()':
-        'prefix': 'endAll'
-        'body': 'endAll()'
-        'description': 'End all selenium server sessions at once'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/endAll.html'
-        'rightLabelHTML': '<span style="color:#ea5906">endAll()</span>'
+  'endAll()':
+    'prefix': 'endAll'
+    'body': 'endAll()'
+    'description': 'End all selenium server sessions at once'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/endAll.html'
+    'rightLabelHTML': '<span style="color:#ea5906">endAll()</span>'
 
-    'getCommandHistory()':
-        'prefix': 'getCommandHistory'
-        'body': 'getCommandHistory()'
-        'description': 'Returns a list of previous called commands and their arguments'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/getCommandHistory.html'
-        'rightLabelHTML': '<span style="color:#ea5906">getCommandHistory()</span>'
+  'getCommandHistory()':
+    'prefix': 'getCommandHistory'
+    'body': 'getCommandHistory()'
+    'description': 'Returns a list of previous called commands and their arguments'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/getCommandHistory.html'
+    'rightLabelHTML': '<span style="color:#ea5906">getCommandHistory()</span>'
 
-    'pause()':
-        'prefix': 'pause'
-        'body': 'pause(${1:milliseconds})$2'
-        'description': 'Pauses execution for a specific amount of time'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/pause.html'
-        'rightLabelHTML': '<span style="color:#ea5906">pause()</span>'
+  'pause()':
+    'prefix': 'pause'
+    'body': 'pause(${1:milliseconds})$2'
+    'description': 'Pauses execution for a specific amount of time'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/pause.html'
+    'rightLabelHTML': '<span style="color:#ea5906">pause()</span>'
 
-    'reload()':
-        'prefix': 'reload'
-        'body': 'reload()'
-        'description': 'Creates a new Selenium session with your current capabilities'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/reload.html'
-        'rightLabelHTML': '<span style="color:#ea5906">reload()</span>'
+  'reload()':
+    'prefix': 'reload'
+    'body': 'reload()'
+    'description': 'Creates a new Selenium session with your current capabilities'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/reload.html'
+    'rightLabelHTML': '<span style="color:#ea5906">reload()</span>'
 
-    'saveScreenshot()':
-        'prefix': 'saveScreenshot'
-        'body': 'saveScreenshot(${1:[filename]})$2'
-        'description': 'Save a screenshot as PNG with the current state of the browser'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/saveScreenshot.html'
-        'rightLabelHTML': '<span style="color:#ea5906">saveScreenshot()</span>'
+  'saveScreenshot()':
+    'prefix': 'saveScreenshot'
+    'body': 'saveScreenshot(${1:[filename]})$2'
+    'description': 'Save a screenshot as PNG with the current state of the browser'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/saveScreenshot.html'
+    'rightLabelHTML': '<span style="color:#ea5906">saveScreenshot()</span>'
 
-    'scroll()':
-        'prefix': 'scroll'
-        'body': 'scroll(${1:[selector]}, ${2:xoffset}, ${3:yoffset})$4'
-        'description': 'Scroll to a specific element'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/scroll.html'
-        'rightLabelHTML': '<span style="color:#ea5906">scroll()</span>'
+  'scroll()':
+    'prefix': 'scroll'
+    'body': 'scroll(${1:[selector]}, ${2:xoffset}, ${3:yoffset})$4'
+    'description': 'Scroll to a specific element'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/scroll.html'
+    'rightLabelHTML': '<span style="color:#ea5906">scroll()</span>'
 
-    'uploadFile()':
-        'prefix': 'uploadFile'
-        'body': 'uploadFile(${1:localPath})$2'
-        'description': 'Uploads a file to the selenium server'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/uploadFile.html'
-        'rightLabelHTML': '<span style="color:#ea5906">uploadFile()</span>'
+  'uploadFile()':
+    'prefix': 'uploadFile'
+    'body': 'uploadFile(${1:localPath})$2'
+    'description': 'Uploads a file to the selenium server'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/uploadFile.html'
+    'rightLabelHTML': '<span style="color:#ea5906">uploadFile()</span>'
 
-    'waitForEnabled()':
-        'prefix': 'waitForEnabled'
-        'body': 'waitForEnabled(${1:selector}, ${2:[ms]})$3'
-        'description': 'Wait for an element for the provided amount of milliseconds to be enabled'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/waitForEnabled.html'
-        'rightLabelHTML': '<span style="color:#ea5906">waitForEnabled()</span>'
+  'waitForEnabled()':
+    'prefix': 'waitForEnabled'
+    'body': 'waitForEnabled(${1:selector}, ${2:[ms]})$3'
+    'description': 'Wait for an element for the provided amount of milliseconds to be enabled'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/waitForEnabled.html'
+    'rightLabelHTML': '<span style="color:#ea5906">waitForEnabled()</span>'
 
-    'waitForExist()':
-        'prefix': 'waitForExist'
-        'body': 'waitForExist(${1:selector}, ${2:[ms]})$3'
-        'description': 'Wait for an element for the provided amount of milliseconds to be present'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/waitForExist.html'
-        'rightLabelHTML': '<span style="color:#ea5906">waitForExist()</span>'
+  'waitForExist()':
+    'prefix': 'waitForExist'
+    'body': 'waitForExist(${1:selector}, ${2:[ms]})$3'
+    'description': 'Wait for an element for the provided amount of milliseconds to be present'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/waitForExist.html'
+    'rightLabelHTML': '<span style="color:#ea5906">waitForExist()</span>'
 
-    'waitForSelected()':
-        'prefix': 'waitForSelected'
-        'body': 'waitForSelected(${1:selector}, ${2:[ms]})$3'
-        'description': 'Wait for an option or radio/checkbox element for the provided amount of milliseconds to be selected'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/waitForSelected.html'
-        'rightLabelHTML': '<span style="color:#ea5906">waitForSelected()</span>'
+  'waitForSelected()':
+    'prefix': 'waitForSelected'
+    'body': 'waitForSelected(${1:selector}, ${2:[ms]})$3'
+    'description': 'Wait for an option or radio/checkbox element for the provided amount of milliseconds to be selected'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/waitForSelected.html'
+    'rightLabelHTML': '<span style="color:#ea5906">waitForSelected()</span>'
 
-    'waitForText()':
-        'prefix': 'waitForText'
-        'body': 'waitForText(${1:selector}, ${2:[ms]})$3'
-        'description': 'Wait for an element for the provided amount of milliseconds to have text/content'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/waitForText.html'
-        'rightLabelHTML': '<span style="color:#ea5906">waitForText()</span>'
+  'waitForText()':
+    'prefix': 'waitForText'
+    'body': 'waitForText(${1:selector}, ${2:[ms]})$3'
+    'description': 'Wait for an element for the provided amount of milliseconds to have text/content'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/waitForText.html'
+    'rightLabelHTML': '<span style="color:#ea5906">waitForText()</span>'
 
-    'waitForValue()':
-        'prefix': 'waitForValue'
-        'body': 'waitForValue(${1:selector}, ${2:[ms]})$3'
-        'description': 'Wait for an element for the provided amount of milliseconds to have a value'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/waitForValue.html'
-        'rightLabelHTML': '<span style="color:#ea5906">waitForValue()</span>'
+  'waitForValue()':
+    'prefix': 'waitForValue'
+    'body': 'waitForValue(${1:selector}, ${2:[ms]})$3'
+    'description': 'Wait for an element for the provided amount of milliseconds to have a value'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/waitForValue.html'
+    'rightLabelHTML': '<span style="color:#ea5906">waitForValue()</span>'
 
-    'waitForVisible()':
-        'prefix': 'waitForVisible'
-        'body': 'waitForVisible(${1:selector}, ${2:[ms]})$3'
-        'description': 'Wait for an element for the provided amount of milliseconds to be visible'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/waitForVisible.html'
-        'rightLabelHTML': '<span style="color:#ea5906">waitForVisible()</span>'
+  'waitForVisible()':
+    'prefix': 'waitForVisible'
+    'body': 'waitForVisible(${1:selector}, ${2:[ms]})$3'
+    'description': 'Wait for an element for the provided amount of milliseconds to be visible'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/waitForVisible.html'
+    'rightLabelHTML': '<span style="color:#ea5906">waitForVisible()</span>'
 
-    'waitUntil()':
-        'prefix': 'waitUntil'
-        'body': 'waitUntil(${1:condition})$2'
-        'description': 'It expects a condition and waits until that condition is fulfilled with a truthy value'
-        'descriptionMoreURL': 'http://webdriver.io/api/utility/waitUntil.html'
-        'rightLabelHTML': '<span style="color:#ea5906">waitUntil()</span>'
+  'waitUntil()':
+    'prefix': 'waitUntil'
+    'body': 'waitUntil(${1:condition})$2'
+    'description': 'It expects a condition and waits until that condition is fulfilled with a truthy value'
+    'descriptionMoreURL': 'http://webdriver.io/api/utility/waitUntil.html'
+    'rightLabelHTML': '<span style="color:#ea5906">waitUntil()</span>'
