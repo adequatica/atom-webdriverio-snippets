@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.1 - 2018-09-30
+
+* Arrange keywords in alphabetical order.
+
 ## 0.5.0 - 2018-09-30
 
 * Support TypeScript;
