@@ -8,14 +8,15 @@
   },
   "description": "Atom snippets for WebdriverIO API",
   "keywords": [
-    "webdriver",
-    "webdriverio",
-    "webdriver.io",
-    "snippets",
     "bindings",
     "commands",
     "selenium",
-    "api"
+    "snippets",
+    "test",
+    "testing",
+    "webdriver",
+    "webdriverio",
+    "webdriver.io",
   ],
   "repository": {
     "type": "git",
