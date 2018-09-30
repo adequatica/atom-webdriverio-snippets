@@ -17,7 +17,7 @@
     "testing",
     "webdriver",
     "webdriverio",
-    "webdriver.io",
+    "webdriver.io"
   ],
   "repository": {
     "type": "git",
