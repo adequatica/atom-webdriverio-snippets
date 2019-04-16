@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.2 - 2019-04-16
+
+* Mention v4 in readme.
+
 ## 0.5.1 - 2018-09-30
 
 * Arrange keywords in alphabetical order.

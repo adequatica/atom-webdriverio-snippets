@@ -1,6 +1,6 @@
 {
   "name": "webdriverio-snippets",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "coffeelintConfig": {
     "max_line_length": {
       "level": "ignore"
